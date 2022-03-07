@@ -1,0 +1,53 @@
+#carouselBasicExample,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url("https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("https://images.pexels.com/photos/1028599/pexels-photo-1028599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("https://images.pexels.com/photos/806427/pexels-photo-806427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#carouselBasicExample {
+  margin-top: -66.6px;
+}
+.navbar {
+  z-index: 100;
+}
+
+.outline {
+  color: white;
+}
+
+.btn {
+  background-color: orange;
+}
+.buttom {
+  color: orange;
+}
+
+.sbmais:hover {
+  background-color: white;
+  color: black;
+}
+.sbmais1:hover {
+  color: white;
+}
